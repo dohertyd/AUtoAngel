@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE97F7B11B107F2A00E910FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7B01B107F2A00E910FD /* main.m */; };
+		BE97F7B41B107F2A00E910FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7B31B107F2A00E910FD /* AppDelegate.m */; };
+		BE97F7BA1B107F2A00E910FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7B81B107F2A00E910FD /* Main.storyboard */; };
+		BE97F7BC1B107F2A00E910FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7BB1B107F2A00E910FD /* Images.xcassets */; };
+		BE97F7BF1B107F2A00E910FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE97F7BD1B107F2A00E910FD /* LaunchScreen.xib */; };
+		BE97F7CB1B107F2A00E910FD /* AutoAngelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE97F7CA1B107F2A00E910FD /* AutoAngelTests.m */; };
+		BEDC96B71B108E4900DF862A /* AutoAngelSvcGen.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDC96B61B108E4900DF862A /* AutoAngelSvcGen.m */; };
+		BEDC96BB1B10E7BC00DF862A /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDC96BA1B10E7BC00DF862A /* StartUpViewController.m */; };
+		BEDC96BE1B10FD6D00DF862A /* CrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDC96BD1B10FD6D00DF862A /* CrashViewController.m */; };
+		BEDC96C01B10FFB000DF862A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC96BF1B10FFB000DF862A /* MapKit.framework */; };
+		BEDC96C51B11257B00DF862A /* NP Naipol All in One_b.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDC96C11B1101F600DF862A /* NP Naipol All in One_b.ttf */; };
+		BEDC96C61B11257B00DF862A /* NP Naipol All in One_bi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDC96C21B1101F600DF862A /* NP Naipol All in One_bi.ttf */; };
+		BEDC96C71B11257B00DF862A /* NP Naipol All in One_i.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDC96C31B1101F600DF862A /* NP Naipol All in One_i.ttf */; };
+		BEDC96C81B11257B00DF862A /* NP Naipol All in One_r.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEDC96C41B1101F600DF862A /* NP Naipol All in One_r.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE97F7C51B107F2A00E910FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE97F7A31B107F2A00E910FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE97F7AA1B107F2A00E910FD;
+			remoteInfo = AutoAngel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE97F7AB1B107F2A00E910FD /* AutoAngel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAngel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97F7AF1B107F2A00E910FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE97F7B01B107F2A00E910FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE97F7B21B107F2A00E910FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE97F7B31B107F2A00E910FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE97F7B91B107F2A00E910FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE97F7BB1B107F2A00E910FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE97F7BE1B107F2A00E910FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE97F7C41B107F2A00E910FD /* AutoAngelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAngelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97F7C91B107F2A00E910FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE97F7CA1B107F2A00E910FD /* AutoAngelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAngelTests.m; sourceTree = "<group>"; };
+		BEDC96B41B10875F00DF862A /* AA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AA.xcconfig; sourceTree = "<group>"; };
+		BEDC96B51B108E4900DF862A /* AutoAngelSvcGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAngelSvcGen.h; sourceTree = "<group>"; };
+		BEDC96B61B108E4900DF862A /* AutoAngelSvcGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAngelSvcGen.m; sourceTree = "<group>"; };
+		BEDC96B91B10E7BC00DF862A /* StartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
+		BEDC96BA1B10E7BC00DF862A /* StartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
+		BEDC96BC1B10FD6D00DF862A /* CrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashViewController.h; sourceTree = "<group>"; };
+		BEDC96BD1B10FD6D00DF862A /* CrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashViewController.m; sourceTree = "<group>"; };
+		BEDC96BF1B10FFB000DF862A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BEDC96C11B1101F600DF862A /* NP Naipol All in One_b.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NP Naipol All in One_b.ttf"; sourceTree = "<group>"; };
+		BEDC96C21B1101F600DF862A /* NP Naipol All in One_bi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NP Naipol All in One_bi.ttf"; sourceTree = "<group>"; };
+		BEDC96C31B1101F600DF862A /* NP Naipol All in One_i.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NP Naipol All in One_i.ttf"; sourceTree = "<group>"; };
+		BEDC96C41B1101F600DF862A /* NP Naipol All in One_r.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NP Naipol All in One_r.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE97F7A81B107F2A00E910FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDC96C01B10FFB000DF862A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE97F7C11B107F2A00E910FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE97F7A21B107F2A00E910FD = {
+			isa = PBXGroup;
+			children = (
+				BEDC96BF1B10FFB000DF862A /* MapKit.framework */,
+				BE97F7AD1B107F2A00E910FD /* AutoAngel */,
+				BE97F7C71B107F2A00E910FD /* AutoAngelTests */,
+				BE97F7AC1B107F2A00E910FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE97F7AC1B107F2A00E910FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE97F7AB1B107F2A00E910FD /* AutoAngel.app */,
+				BE97F7C41B107F2A00E910FD /* AutoAngelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE97F7AD1B107F2A00E910FD /* AutoAngel */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC96B81B10982000DF862A /* GeneratedGolgiCode */,
+				BE97F7B21B107F2A00E910FD /* AppDelegate.h */,
+				BE97F7B31B107F2A00E910FD /* AppDelegate.m */,
+				BE97F7B81B107F2A00E910FD /* Main.storyboard */,
+				BE97F7BB1B107F2A00E910FD /* Images.xcassets */,
+				BE97F7BD1B107F2A00E910FD /* LaunchScreen.xib */,
+				BE97F7AE1B107F2A00E910FD /* Supporting Files */,
+				BEDC96B41B10875F00DF862A /* AA.xcconfig */,
+				BEDC96B91B10E7BC00DF862A /* StartUpViewController.h */,
+				BEDC96BA1B10E7BC00DF862A /* StartUpViewController.m */,
+				BEDC96BC1B10FD6D00DF862A /* CrashViewController.h */,
+				BEDC96BD1B10FD6D00DF862A /* CrashViewController.m */,
+			);
+			path = AutoAngel;
+			sourceTree = "<group>";
+		};
+		BE97F7AE1B107F2A00E910FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC96C11B1101F600DF862A /* NP Naipol All in One_b.ttf */,
+				BEDC96C21B1101F600DF862A /* NP Naipol All in One_bi.ttf */,
+				BEDC96C31B1101F600DF862A /* NP Naipol All in One_i.ttf */,
+				BEDC96C41B1101F600DF862A /* NP Naipol All in One_r.ttf */,
+				BE97F7AF1B107F2A00E910FD /* Info.plist */,
+				BE97F7B01B107F2A00E910FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE97F7C71B107F2A00E910FD /* AutoAngelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE97F7CA1B107F2A00E910FD /* AutoAngelTests.m */,
+				BE97F7C81B107F2A00E910FD /* Supporting Files */,
+			);
+			path = AutoAngelTests;
+			sourceTree = "<group>";
+		};
+		BE97F7C81B107F2A00E910FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE97F7C91B107F2A00E910FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEDC96B81B10982000DF862A /* GeneratedGolgiCode */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC96B61B108E4900DF862A /* AutoAngelSvcGen.m */,
+				BEDC96B51B108E4900DF862A /* AutoAngelSvcGen.h */,
+			);
+			name = GeneratedGolgiCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE97F7AA1B107F2A00E910FD /* AutoAngel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE97F7CE1B107F2A00E910FD /* Build configuration list for PBXNativeTarget "AutoAngel" */;
+			buildPhases = (
+				BEDC96B31B10857700DF862A /* Run Script */,
+				BE97F7A71B107F2A00E910FD /* Sources */,
+				BE97F7A81B107F2A00E910FD /* Frameworks */,
+				BE97F7A91B107F2A00E910FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoAngel;
+			productName = AutoAngel;
+			productReference = BE97F7AB1B107F2A00E910FD /* AutoAngel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE97F7C31B107F2A00E910FD /* AutoAngelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE97F7D11B107F2A00E910FD /* Build configuration list for PBXNativeTarget "AutoAngelTests" */;
+			buildPhases = (
+				BE97F7C01B107F2A00E910FD /* Sources */,
+				BE97F7C11B107F2A00E910FD /* Frameworks */,
+				BE97F7C21B107F2A00E910FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE97F7C61B107F2A00E910FD /* PBXTargetDependency */,
+			);
+			name = AutoAngelTests;
+			productName = AutoAngelTests;
+			productReference = BE97F7C41B107F2A00E910FD /* AutoAngelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE97F7A31B107F2A00E910FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Derek Doherty";
+				TargetAttributes = {
+					BE97F7AA1B107F2A00E910FD = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = CJ62T3H7T2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BE97F7C31B107F2A00E910FD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BE97F7AA1B107F2A00E910FD;
+					};
+				};
+			};
+			buildConfigurationList = BE97F7A61B107F2A00E910FD /* Build configuration list for PBXProject "AutoAngel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE97F7A21B107F2A00E910FD;
+			productRefGroup = BE97F7AC1B107F2A00E910FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE97F7AA1B107F2A00E910FD /* AutoAngel */,
+				BE97F7C31B107F2A00E910FD /* AutoAngelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE97F7A91B107F2A00E910FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDC96C51B11257B00DF862A /* NP Naipol All in One_b.ttf in Resources */,
+				BEDC96C61B11257B00DF862A /* NP Naipol All in One_bi.ttf in Resources */,
+				BEDC96C71B11257B00DF862A /* NP Naipol All in One_i.ttf in Resources */,
+				BEDC96C81B11257B00DF862A /* NP Naipol All in One_r.ttf in Resources */,
+				BE97F7BA1B107F2A00E910FD /* Main.storyboard in Resources */,
+				BE97F7BF1B107F2A00E910FD /* LaunchScreen.xib in Resources */,
+				BE97F7BC1B107F2A00E910FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE97F7C21B107F2A00E910FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEDC96B31B10857700DF862A /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#  example-build-script.sh\n\n#\n# GOLGI_WORK_DIR: Where the golgi_gen script will copied to run\n# GOLGI_PKG_DIR: The Golgi Package install directory\n# GOLGI_LIB_DIR: Where the Golgi runtime libraries whould be put\n#\n\nGOLGI_WORK_DIR=\"$PROJECT_DIR/$PROJECT_NAME\"\nGOLGI_PKG_DIR=\"$HOME/Golgi-Pkg/LATEST\"\nGOLGI_HDR_DIR=\"$PROJECT_DIR/$PROJECT_NAME\"\nGOLGI_LIB_DIR=\"$PROJECT_DIR/$PROJECT_NAME\"\n\n#\n# Copy Thrift file(s) into place (if necessary)\n#\n\n#cp -f \"$PROJECT_DIR/../../GolgiConfig/GolgiGreeting.thrift\" \"$WKDIR\"\ncp -f \"$PROJECT_DIR/../../AutoAngel.thrift\" \"$PROJECT_DIR/$PROJECT_NAME\"\n\n#\n# Create the GOLGI_KEYS.h file containing\n# the Developer key and the application key\n#\n\nDEVKEY=`cat \"$PROJECT_DIR/../../Golgi.DevKey\"`\nAPPKEY=`cat \"$PROJECT_DIR/../../Golgi.AppKey\"`\necho \"#define GOLGI_DEV_KEY @\\\"$DEVKEY\\\"\" >\"$GOLGI_HDR_DIR/GOLGI_KEYS.h\"\necho \"#define GOLGI_APP_KEY @\\\"$APPKEY\\\"\" >>\"$GOLGI_HDR_DIR/GOLGI_KEYS.h\"\n\n\n. \"$GOLGI_PKG_DIR/iOS/golgi_gen.sh\"\n\n#\n# Remove the thrift file because the canonical source is elsewhere\n#\n\nrm -f \"$GOLGI_WORK_DIR/GolgiGreeting.thrift\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE97F7A71B107F2A00E910FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDC96BE1B10FD6D00DF862A /* CrashViewController.m in Sources */,
+				BE97F7B41B107F2A00E910FD /* AppDelegate.m in Sources */,
+				BEDC96B71B108E4900DF862A /* AutoAngelSvcGen.m in Sources */,
+				BEDC96BB1B10E7BC00DF862A /* StartUpViewController.m in Sources */,
+				BE97F7B11B107F2A00E910FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE97F7C01B107F2A00E910FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE97F7CB1B107F2A00E910FD /* AutoAngelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE97F7C61B107F2A00E910FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE97F7AA1B107F2A00E910FD /* AutoAngel */;
+			targetProxy = BE97F7C51B107F2A00E910FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE97F7B81B107F2A00E910FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE97F7B91B107F2A00E910FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE97F7BD1B107F2A00E910FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE97F7BE1B107F2A00E910FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE97F7CC1B107F2A00E910FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDC96B41B10875F00DF862A /* AA.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE97F7CD1B107F2A00E910FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDC96B41B10875F00DF862A /* AA.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE97F7CF1B107F2A00E910FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AutoAngel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE97F7D01B107F2A00E910FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = AutoAngel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE97F7D21B107F2A00E910FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoAngelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAngel.app/AutoAngel";
+			};
+			name = Debug;
+		};
+		BE97F7D31B107F2A00E910FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutoAngelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoAngel.app/AutoAngel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE97F7A61B107F2A00E910FD /* Build configuration list for PBXProject "AutoAngel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE97F7CC1B107F2A00E910FD /* Debug */,
+				BE97F7CD1B107F2A00E910FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE97F7CE1B107F2A00E910FD /* Build configuration list for PBXNativeTarget "AutoAngel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE97F7CF1B107F2A00E910FD /* Debug */,
+				BE97F7D01B107F2A00E910FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE97F7D11B107F2A00E910FD /* Build configuration list for PBXNativeTarget "AutoAngelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE97F7D21B107F2A00E910FD /* Debug */,
+				BE97F7D31B107F2A00E910FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE97F7A31B107F2A00E910FD /* Project object */;
+}
